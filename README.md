@@ -6,9 +6,9 @@ TimeRst                Bit      P1.5
 TimeClk                Bit      P1.6
 TimeDat                Bit      P1.7
 ;--------------------------------------------------------------------------
-DisModePort0           Equ      6000H                  ;0:Light up
+DisModePort0           Equ      6000H                  
 DisModePort1           Equ      0000H
-DisCSPort0             Equ      2000H                  ;1:Light up
+DisCSPort0             Equ      2000H                  
 DisCSPort1             Equ      4000H
 NoBlinkDat             Equ      0FFH
 BlinkStartDat          Equ      0FEH
